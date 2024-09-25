@@ -34,7 +34,7 @@ router.post('/forgotPassword', async(req, res) => {
             from: process.env.EMAIL,
             to: email,
             subject: "Reset Password",
-            text: `http://localhost:5173/resetPassword/${token}`
+            text: `https://expense-master-nine.vercel.app/resetPassword/${token}`
         }
 
         transporter.sendMail(mailOptions, (error, info)=>{
