@@ -79,7 +79,7 @@ router.put('/:id', ensureAuthenticated, async(req, res)=>{
     }
 })
 
-router.get('/recent/:user_id', ensureAuthenticated, async(res, req)=>{
+router.get('/recent/:user_id', ensureAuthenticated, async(req, res)=>{
     const user_id = req.params.user_id
     try{
         const expenses = await Expences.find({user_id: user_id}).limit(2)
