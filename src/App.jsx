@@ -27,12 +27,11 @@ const App = () => {
     <div>
       <RefreshHandler setIsAuthentcated={setIsAuthenticated}/>
       <Routes>
-        <Route path='/' element={<Navigate to="/login"/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/forgotPassword' element={<ForgotPassword/>}/>
         <Route path='/resetPassword/:token' element={<ResetPassword/>}/>
-        <Route path="/home" element={
+        <Route path="/" element={
           <PrivateRoute element={<Home/>}/>
         } />
         <Route path="/analytics" element={
