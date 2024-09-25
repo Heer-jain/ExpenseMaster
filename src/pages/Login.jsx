@@ -39,7 +39,7 @@ const Login = () => {
       localStorage.setItem('user_id', _id)
       localStorage.setItem('userPassword', password)
       setTimeout(() => {
-        navigate('/')
+        navigate('/home')
       }, 1);
     }else if(error){
       const details = error?.details[0].message
