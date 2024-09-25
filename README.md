@@ -1,8 +1,22 @@
-# React + Vite
+# Expense Master
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Expense Master is a simple yet effective web application designed to help users track their expenses efficiently. Built using the MERN stack, it provides a user-friendly interface for managing income and expenses, generating reports, and visualizing financial data.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication**: Secure user login and registration.
+- **Expense Tracking**: Add, update, and delete expenses easily.
+- **Income Tracking**: Manage and record different sources of income.
+- **Budget Management**: Set and manage budgets for better financial planning.
+- **Visual Reports**: View visual representations of income and expenses.
+- **Responsive Design**: Mobile-friendly layout for easy access on the go.
+
+## Technologies Used
+
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, Mongoose
+- **Authentication**: JSON Web Tokens (JWT)
+- **Other**: Axios for API requests
+
+
