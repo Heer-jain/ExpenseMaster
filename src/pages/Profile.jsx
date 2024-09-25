@@ -40,7 +40,7 @@ const Profile = () => {
         setUserPassword(data.profile.password);
         localStorage.setItem('loggedInUser', data.profile.username);
         localStorage.setItem('userEmail', data.profile.email);
-        navigate('/');
+        navigate('/home');
       } else {
         handleError(data.error || "Profile not updated");
       }
